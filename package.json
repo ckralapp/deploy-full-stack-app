@@ -14,7 +14,7 @@
     "client:dev": "cd client && bun run dev",
     "build": "bun run client:build && bun run server:build",
     "seed": "cd server && bun run seed",
-    "render-build": "bun install && bun run build",
+    "render-build": "bun install",
     "cypress": "npx cypress open",
     "test": "npx cypress run"
   },
